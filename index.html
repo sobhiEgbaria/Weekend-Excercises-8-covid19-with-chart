@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./style.css">    
+    <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <h1 class="title">covid 19 statistics</h1>
+  </header>
+
+   <main>
+    <div class="chart">
+      <canvas id="myChart"></canvas>
+    </div>
+   </main>
+        
+ 
+
+  <footer>
+    <div class="statsOfCountry">
+      <!-- TODO: bind to covid status in chart data -->
+      <button> Confirmed Cases</button>
+      <button>Deaths</button>
+      <button>recovered</button>
+      <button>critical condition</button>
+    </div>
+<!-- TODO: bind to content event listner -->
+    <div class="continents">      
+      <button class="continent" value="asia">asia</button>
+      <button class="continent" value="europe">europe</button>
+      <button class="continent" value="africa">africa</button>
+      <button class="continent" value="america">america</button>
+      <button class="continent" value="australia" >australia</button>
+    </div>
+  <!-- TODO: bind to event that changes per content selected -->
+    <div class="countries" id="countries">
+<!-- TODO: bid countries to service -->
+    </div>
+   
+  </footer> 
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

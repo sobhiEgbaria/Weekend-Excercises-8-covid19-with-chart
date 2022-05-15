@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+button ,button:hover{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chart{
+    
+    width: 650px;
+    height: 500px;  
+}
+
+main{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.statsOfCountry ,.continents{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
